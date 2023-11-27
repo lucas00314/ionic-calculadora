@@ -76,7 +76,8 @@ export class HomePage {
       this.resultado = (parseInt(this.primeiro_elemento) ** 2).toString();
       this.memoria = this.primeiro_elemento + "² = " + this.resultado;
       this.resultado_concluido = true;
-    } else if (this.operador_selecionado === "sqrt" && this.primeiro_elemento !== "") {
+    } 
+    if (this.operador_selecionado === "sqrt" && this.primeiro_elemento !== "") {
       this.resultado = Math.sqrt(parseInt(this.primeiro_elemento)).toString();
       this.memoria = "√" + this.primeiro_elemento + " = " + this.resultado;
       this.resultado_concluido = true;
