@@ -1,0 +1,7 @@
+{
+  "name": "calculadorapetri",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
